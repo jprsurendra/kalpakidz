@@ -296,8 +296,8 @@
         </div>
       </div>
       <div class="tm-floating-objects">
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/objects/home-object1.png" data-tm-opacity="0.8" data-tm-width="150" data-tm-height="165" data-tm-top="58%" data-tm-right="5%"></span>
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/objects/home-object2.png" data-tm-opacity="0.8" data-tm-width="140" data-tm-height="140" data-tm-top="8%" data-tm-left="10%"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="{% static 'images/objects/home-object1.png' %}" data-tm-opacity="0.8" data-tm-width="150" data-tm-height="165" data-tm-top="58%" data-tm-right="5%"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="{% static 'images/objects/home-object2.png' %}" data-tm-opacity="0.8" data-tm-width="140" data-tm-height="140" data-tm-top="8%" data-tm-left="10%"></span>
       </div>
     </section>
     <!-- Section: home End -->
@@ -363,7 +363,7 @@
     </section>
 
     <!-- Section: Divider -->
-    <section class="bg-theme-colored2 wave-object-bottom2" data-tm-bg-img="images/bg/object-bg2.png">
+    <section class="bg-theme-colored2 wave-object-bottom2" data-tm-bg-img="{% static 'images/bg/object-bg2.png' %}">
       <div class="container pt-0 pb-md-50">
         <div class="section-content">
           <div class="divider-current-theme-style6">
@@ -379,7 +379,7 @@
                     <div class="upcoming-events-current-style2">
                       <div class="event-item mb-30">
                         <div class="event-img">
-                          <img class="rounded-circle" src="images/photos/event-sm-img1.jpg" alt="Symptop">
+                          <img class="rounded-circle" src="{% static 'images/photos/event-sm-img1.jpg' %}" alt="Symptop">
                         </div>
                         <div class="event-content">
                           <ul class="event-info-list">
@@ -392,7 +392,7 @@
                       </div>
                       <div class="event-item">
                         <div class="event-img">
-                          <img class="rounded-circle" src="images/photos/event-sm-img2.jpg" alt="Symptop">
+                          <img class="rounded-circle" src="{% static 'images/photos/event-sm-img2.jpg' %}" alt="Symptop">
                         </div>
                         <div class="event-content">
                           <ul class="event-info-list">
@@ -412,7 +412,7 @@
         </div>
       </div>
       <div class="layer-image-wrapper layer-image-divider4 d-none d-xl-block">
-        <div class="layer-image-right" data-tm-bg-img="images/photos/3.jpg"></div>
+        <div class="layer-image-right" data-tm-bg-img="{% static 'images/photos/3.jpg' %}"></div>
       </div>
       <div class="cp-shape shape-line2"></div>
     </section>
@@ -424,7 +424,7 @@
         <div class="row align-items-center justify-content-between">
           <div class="col-md-12 col-lg-6 col-xl-6">
             <div class="image-box">
-              <img src="images/about/about1.png" alt="">
+              <img src="{% static 'images/about/about1.png' %}" alt="">
             </div>
           </div>
           <div class="col-md-12 col-lg-6 col-xl-5">
@@ -432,7 +432,7 @@
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elitrem ipsum dolor sit amet elit sed do.</p>
             <div class="feature-icon-item">
               <div class="feature-icon">
-                <img src="images/icon/feature-icon1.png" alt="img">
+                <img src="{% static 'images/icon/feature-icon1.png' %}" alt="img">
               </div>
               <div class="feature-icon-content mb-md-30">
                 <h4>Knowledge Classes</h4>
@@ -441,7 +441,7 @@
             </div>
             <div class="feature-icon-item ml-60 mb-md-60 ml-lg--0">
               <div class="feature-icon">
-                <img src="images/icon/feature-icon2.png" alt="img">
+                <img src="{% static 'images/icon/feature-icon2.png' %}" alt="img">
               </div>
               <div class="feature-icon-content">
                 <h4>Drawing Classes</h4>
@@ -452,13 +452,13 @@
         </div>
       </div>
       <div class="tm-floating-objects d-none d-xl-block">
-        <span class="floating-object-2 tm-animation-floating z-index--1" data-tm-bg-img="images/objects/object-rocket1.png" data-tm-opacity="0.1" data-tm-width="270" data-tm-height="335" data-tm-top="8%" data-tm-left="0"></span>
+        <span class="floating-object-2 tm-animation-floating z-index--1" data-tm-bg-img="{% static 'images/objects/object-rocket1.png' %}" data-tm-opacity="0.1" data-tm-width="270" data-tm-height="335" data-tm-top="8%" data-tm-left="0"></span>
       </div>
     </section>
     <!-- End About -->
 
     <!-- Start Video Popup -->
-    <section class="bg-theme-colored2 wave-object-bottom wave-object-top" data-tm-bg-img="images/bg/programm-bg1.png">
+    <section class="bg-theme-colored2 wave-object-bottom wave-object-top" data-tm-bg-img="{% static 'images/bg/programm-bg1.png' %}">
       <div class="container pt-200 pb-200">
         <div class="section-content">
           <div class="row">
@@ -507,7 +507,7 @@
             <div class="col-md-12 col-lg-6 col-xl-4">
               <div class="choose-class-item mb-100 mb-lg-30">
                 <div class="choose-class-icon">
-                  <img src="images/icon/choose-icon1.png" alt="img">
+                  <img src="{% static 'images/icon/choose-icon1.png' %}" alt="img">
                 </div>
                 <div class="choose-class-content">
                   <h4> <a href="page-course-details.html">Drawing Classes</a></h4>
@@ -516,7 +516,7 @@
               </div>
               <div class="choose-class-item mb-lg-30">
                 <div class="choose-class-icon">
-                  <img src="images/icon/choose-icon3.png" alt="img">
+                  <img src="{% static 'images/icon/choose-icon3.png' %}" alt="img">
                 </div>
                 <div class="choose-class-content">
                   <h4> <a href="page-course-details.html">Math Classes</a></h4>
@@ -525,12 +525,12 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-6 col-xl-4">
-              <img src="images/about/child.png" alt="img">
+              <img src="{% static 'images/about/child.png' %}" alt="img">
             </div>
             <div class="col-md-12 col-lg-6 col-xl-4">
               <div class="choose-class-item mt-md-30 mb-100 mb-lg-30">
                 <div class="choose-class-icon">
-                  <img src="images/icon/choose-icon2.png" alt="img">
+                  <img src="{% static 'images/icon/choose-icon2.png' %}" alt="img">
                 </div>
                 <div class="choose-class-content">
                   <h4> <a href="page-course-details.html">Science Classes</a></h4>
@@ -539,7 +539,7 @@
               </div>
               <div class="choose-class-item">
                 <div class="choose-class-icon">
-                  <img src="images/icon/choose-icon4.png" alt="img">
+                  <img src="{% static 'images/icon/choose-icon4.png' %}" alt="img">
                 </div>
                 <div class="choose-class-content">
                   <h4> <a href="page-course-details.html">Knowledge Classes</a></h4>
@@ -551,14 +551,14 @@
         </div>
       </div>
       <div class="tm-floating-objects d-none d-lg-block">
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/objects/paper-plane-object1.png" data-tm-opacity="0.5" data-tm-width="170" data-tm-height="240" data-tm-top="5%" data-tm-left="0"></span>
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/objects/color-board-object1.png" data-tm-opacity="0.5" data-tm-width="150" data-tm-height="165" data-tm-top="5%" data-tm-right="5%"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="{% static 'images/objects/paper-plane-object1.png' %}" data-tm-opacity="0.5" data-tm-width="170" data-tm-height="240" data-tm-top="5%" data-tm-left="0"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="{% static 'images/objects/color-board-object1.png' %}" data-tm-opacity="0.5" data-tm-width="150" data-tm-height="165" data-tm-top="5%" data-tm-right="5%"></span>
       </div>
     </section>
     <!-- End Choose Class -->
 
     <!-- Start Programm -->
-    <section class="bg-theme-colored2" data-tm-bg-img="images/bg/programm-bg1.png">
+    <section class="bg-theme-colored2" data-tm-bg-img="{% static 'images/bg/programm-bg1.png' %}">
       <div class="container">
         <div class="section-title">
           <div class="row justify-content-center">
@@ -579,9 +579,9 @@
               <div class="tm-sc-services services-style-current-theme text-center mb-lg-40">
                 <div class="tm-service">
                   <div class="thumb">
-                    <img class="w-100" src="images/service/1.jpg" alt="Image">
+                    <img class="w-100" src="{% static 'images/service/1.jpg' %}" alt="Image">
                     <div class="service-icon">
-                      <img src="images/icon/1.png" alt="">
+                      <img src="{% static 'images/icon/1.png' %}" alt="">
                     </div>
                   </div>
                   <div class="details clearfix">
@@ -600,9 +600,9 @@
               <div class="tm-sc-services services-style-current-theme text-center mb-sm-40">
                 <div class="tm-service">
                   <div class="thumb">
-                    <img class="w-100" src="images/service/2.jpg" alt="Image">
+                    <img class="w-100" src="{% static 'images/service/2.jpg' %}" alt="Image">
                     <div class="service-icon">
-                      <img src="images/icon/2.png" alt="">
+                      <img src="{% static 'images/icon/2.png' %}" alt="">
                     </div>
                   </div>
                   <div class="details clearfix">
@@ -621,9 +621,9 @@
               <div class="tm-sc-services services-style-current-theme text-center">
                 <div class="tm-service">
                   <div class="thumb">
-                    <img class="w-100" src="images/service/3.jpg" alt="Image">
+                    <img class="w-100" src="{% static 'images/service/3.jpg' %}" alt="Image">
                     <div class="service-icon">
-                      <img src="images/icon/1.png" alt="">
+                      <img src="{% static 'images/icon/1.png' %}" alt="">
                     </div>
                   </div>
                   <div class="details clearfix">
@@ -666,7 +666,7 @@
               <div class="tm-sc-staff staff-current-theme text-centermb-lg-40">
                 <div class="tm-staff">
                   <div class="thumb mb-20">
-                    <img class="rounded-circle" src="images/team/team1.jpg" alt="Image">
+                    <img class="rounded-circle" src="{% static 'images/team/team1.jpg' %}" alt="Image">
                   </div>
                   <div class="details text-center">
                     <ul class="styled-icons icon-dark icon-theme-colored1 icon-circled mb-10">
@@ -683,7 +683,7 @@
               <div class="tm-sc-staff staff-current-theme text-center mb-lg-40">
                 <div class="tm-staff">
                   <div class="thumb mb-20">
-                    <img class="rounded-circle" src="images/team/team2.jpg" alt="Image">
+                    <img class="rounded-circle" src="{% static 'images/team/team2.jpg' %}" alt="Image">
                   </div>
                   <div class="details text-center">
                     <ul class="styled-icons icon-dark icon-theme-colored1 icon-circled mb-10">
@@ -734,9 +734,9 @@
         </div>
       </div>
       <div class="tm-floating-objects">
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/objects/paper-plane-object1.png" data-tm-opacity="0.5" data-tm-width="170" data-tm-height="240" data-tm-top="5%" data-tm-left="0"></span>
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/objects/headphone-object1.png" data-tm-opacity="0.5" data-tm-width="150" data-tm-height="165" data-tm-top="5%" data-tm-right="5%"></span>
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/objects/globe-object1.png" data-tm-opacity="0.5" data-tm-width="105" data-tm-height="165" data-tm-bottom="5%" data-tm-right="0%"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="{% static 'images/objects/paper-plane-object1.png' %}" data-tm-opacity="0.5" data-tm-width="170" data-tm-height="240" data-tm-top="5%" data-tm-left="0"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="{% static 'images/objects/headphone-object1.png' %}" data-tm-opacity="0.5" data-tm-width="150" data-tm-height="165" data-tm-top="5%" data-tm-right="5%"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="{% static 'images/objects/headphone-object1.png' %}" data-tm-opacity="0.5" data-tm-width="105" data-tm-height="165" data-tm-bottom="5%" data-tm-right="0%"></span>
       </div>
     </section>
     <!-- End Team -->
@@ -776,7 +776,7 @@
                         <div class="pricing-table-inner-wrapper">
                           <div class="pricing-table-inner">
                             <div class="pricing-table-head">
-                              <img src="images/png-objects/ballon1.png" alt="images">
+                              <img src="{% static 'images/png-objects/ballon1.png' %}" alt="images">
                               <div class="pricing-table-pricing"><span class="pricing-table-prefix">$</span> <span
                                   class="pricing-table-price">45</span> <span class="pricing-table-separator">/</span>
                                 <span class="pricing-table-postfix">Monthly</span>
@@ -807,7 +807,7 @@
                         <div class="pricing-table-inner-wrapper">
                           <div class="pricing-table-inner">
                             <div class="pricing-table-head">
-                              <img src="images/png-objects/ballon2.png" alt="images">
+                              <img src="{% static 'images/png-objects/ballon2.png' %}" alt="images">
                               <div class="pricing-table-pricing"><span class="pricing-table-prefix">$</span> <span
                                   class="pricing-table-price">85</span> <span class="pricing-table-separator">/</span>
                                 <span class="pricing-table-postfix">Monthly</span>
@@ -839,7 +839,7 @@
                         <div class="pricing-table-inner-wrapper">
                           <div class="pricing-table-inner">
                             <div class="pricing-table-head">
-                              <img src="images/png-objects/ballon3.png" alt="images">
+                              <img src="{% static 'images/png-objects/ballon3.png' %}" alt="images">
                               <div class="pricing-table-pricing"><span class="pricing-table-prefix">$</span> <span
                                   class="pricing-table-price">240</span> <span class="pricing-table-separator">/</span>
                                 <span class="pricing-table-postfix">Monthly</span>
@@ -1001,14 +1001,14 @@
                         <div class="tm-gallery">
                           <div class="tm-gallery-inner">
                             <div class="thumb">
-                              <a href="#"><img src="images/gallery/1.jpg" class="rounded-circle" alt=""/></a>
+                              <a href="#"><img src="{% static 'images/gallery/1.jpg' %}" class="rounded-circle" alt=""/></a>
                             </div>
                             <div class="tm-gallery-content-wrapper">
                               <div class="tm-gallery-content">
                                 <div class="tm-gallery-content-inner">
                                   <div class="icons-holder-inner">
                                     <div class="styled-icons icon-dark icon-circled icon-theme-colored1">
-                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="images/gallery/1.jpg" title="photo" href="images/gallery/1.jpg"><i class="fa fa-plus"></i></a>
+                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="{% static 'images/gallery/1.jpg' %}" title="photo" href="{% static 'images/gallery/1.jpg' %}"><i class="fa fa-plus"></i></a>
                                     </div>
                                   </div>
                                   <div class="title-holder">
@@ -1029,14 +1029,14 @@
                         <div class="tm-gallery">
                           <div class="tm-gallery-inner">
                             <div class="thumb">
-                              <a href="#"><img src="images/gallery/2.jpg" class="rounded-circle" alt=""/></a>
+                              <a href="#"><img src="{% static 'images/gallery/2.jpg' %}" class="rounded-circle" alt=""/></a>
                             </div>
                             <div class="tm-gallery-content-wrapper">
                               <div class="tm-gallery-content">
                                 <div class="tm-gallery-content-inner">
                                   <div class="icons-holder-inner">
                                     <div class="styled-icons icon-dark icon-circled icon-theme-colored1">
-                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="images/gallery/2.jpg" title="photo" href="images/gallery/2.jpg"><i class="fa fa-plus"></i></a>
+                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="{% static 'images/gallery/2.jpg' %}" title="photo" href="{% static 'images/gallery/2.jpg' %}"><i class="fa fa-plus"></i></a>
                                     </div>
                                   </div>
                                   <div class="title-holder">
@@ -1057,14 +1057,14 @@
                         <div class="tm-gallery">
                           <div class="tm-gallery-inner">
                             <div class="thumb">
-                              <a href="#"><img src="images/gallery/3.jpg" class="rounded-circle" alt=""/></a>
+                              <a href="#"><img src="{% static 'images/gallery/3.jpg' %}" class="rounded-circle" alt=""/></a>
                             </div>
                             <div class="tm-gallery-content-wrapper">
                               <div class="tm-gallery-content">
                                 <div class="tm-gallery-content-inner">
                                   <div class="icons-holder-inner">
                                     <div class="styled-icons icon-dark icon-circled icon-theme-colored1">
-                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="images/gallery/3.jpg" title="photo" href="images/gallery/3.jpg"><i class="fa fa-plus"></i></a>
+                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="{% static 'images/gallery/3.jpg' %}" title="photo" href="{% static 'images/gallery/3.jpg' %}"><i class="fa fa-plus"></i></a>
                                     </div>
                                   </div>
                                   <div class="title-holder">
@@ -1085,14 +1085,14 @@
                         <div class="tm-gallery">
                           <div class="tm-gallery-inner">
                             <div class="thumb">
-                              <a href="#"><img src="images/gallery/4.jpg" class="rounded-circle" alt=""/></a>
+                              <a href="#"><img src="{% static 'images/gallery/4.jpg' %}" class="rounded-circle" alt=""/></a>
                             </div>
                             <div class="tm-gallery-content-wrapper">
                               <div class="tm-gallery-content">
                                 <div class="tm-gallery-content-inner">
                                   <div class="icons-holder-inner">
                                     <div class="styled-icons icon-dark icon-circled icon-theme-colored1">
-                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="images/gallery/4.jpg" title="photo" href="images/gallery/4.jpg"><i class="fa fa-plus"></i></a>
+                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="{% static 'images/gallery/4.jpg' %}" title="photo" href="{% static 'images/gallery/4.jpg' %}"><i class="fa fa-plus"></i></a>
                                     </div>
                                   </div>
                                   <div class="title-holder">
@@ -1113,14 +1113,14 @@
                         <div class="tm-gallery">
                           <div class="tm-gallery-inner">
                             <div class="thumb">
-                              <a href="#"><img src="images/gallery/5.jpg" class="rounded-circle" alt=""/></a>
+                              <a href="#"><img src="{% static 'images/gallery/5.jpg' %}" class="rounded-circle" alt=""/></a>
                             </div>
                             <div class="tm-gallery-content-wrapper">
                               <div class="tm-gallery-content">
                                 <div class="tm-gallery-content-inner">
                                   <div class="icons-holder-inner">
                                     <div class="styled-icons icon-dark icon-circled icon-theme-colored1">
-                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="images/gallery/5.jpg" title="photo" href="images/gallery/5.jpg"><i class="fa fa-plus"></i></a>
+                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="{% static 'images/gallery/5.jpg' %}" title="photo" href="{% static 'images/gallery/5.jpg' %}"><i class="fa fa-plus"></i></a>
                                     </div>
                                   </div>
                                   <div class="title-holder">
@@ -1141,14 +1141,14 @@
                         <div class="tm-gallery">
                           <div class="tm-gallery-inner">
                             <div class="thumb">
-                              <a href="#"><img src="images/gallery/6.jpg" class="rounded-circle" alt=""/></a>
+                              <a href="#"><img src="{% static 'images/gallery/6.jpg' %}" class="rounded-circle" alt=""/></a>
                             </div>
                             <div class="tm-gallery-content-wrapper">
                               <div class="tm-gallery-content">
                                 <div class="tm-gallery-content-inner">
                                   <div class="icons-holder-inner">
                                     <div class="styled-icons icon-dark icon-circled icon-theme-colored1">
-                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="images/gallery/6.jpg" title="photo" href="images/gallery/6.jpg"><i class="fa fa-plus"></i></a>
+                                      <a class="lightgallery-trigger styled-icons-item" data-exthumbimage="{% static 'images/gallery/6.jpg' %}" title="photo" href="{% static 'images/gallery/6.jpg' %}"><i class="fa fa-plus"></i></a>
                                     </div>
                                   </div>
                                   <div class="title-holder">
@@ -1172,10 +1172,10 @@
         </div>
       </div>
       <div class="tm-floating-objects d-none d-lg-block">
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/objects/paper-plane-object1.png" data-tm-opacity="0.5" data-tm-width="170" data-tm-height="240" data-tm-top="5%" data-tm-left="0"></span>
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/objects/headphone-object1.png" data-tm-opacity="0.5" data-tm-width="150" data-tm-height="165" data-tm-top="5%" data-tm-right="5%"></span>
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/objects/globe-object1.png" data-tm-opacity="0.5" data-tm-width="105" data-tm-height="165" data-tm-bottom="5%" data-tm-right="0%"></span>
-        <span class="floating-object-2 tm-animation-floating z-index--1" data-tm-bg-img="images/objects/side-splash-object1.png" data-tm-opacity="0.5" data-tm-width="383" data-tm-height="700" data-tm-bottom="-135px" data-tm-left="0%"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="{% static 'images/objects/paper-plane-object1.png' %}" data-tm-opacity="0.5" data-tm-width="170" data-tm-height="240" data-tm-top="5%" data-tm-left="0"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="{% static 'images/objects/headphone-object1.png' %}" data-tm-opacity="0.5" data-tm-width="150" data-tm-height="165" data-tm-top="5%" data-tm-right="5%"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="{% static 'images/objects/headphone-object1.png' %}" data-tm-opacity="0.5" data-tm-width="105" data-tm-height="165" data-tm-bottom="5%" data-tm-right="0%"></span>
+        <span class="floating-object-2 tm-animation-floating z-index--1" data-tm-bg-img="{% static 'images/objects/side-splash-object1.png' %}" data-tm-opacity="0.5" data-tm-width="383" data-tm-height="700" data-tm-bottom="-135px" data-tm-left="0%"></span>
       </div>
     </section>
 
