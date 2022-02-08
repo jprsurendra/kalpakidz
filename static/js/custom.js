@@ -348,9 +348,11 @@ var THEMEMASCOT = {};
             var currentScrollPos = $window.scrollTop();
             if (prevScrollpos > currentScrollPos) {
               $navbar_scrolltofixed.css('top', 0);
+              $('.menuzord-brand').removeClass('logo-shadow');
             } else {
               if( $document.scrollTop() > $header_height + 200 ) {
                 $navbar_scrolltofixed.css('top', '-' + $navbar_height + 'px');
+                $('.menuzord-brand').addClass('logo-shadow');
               }
             }
             prevScrollpos = currentScrollPos;
